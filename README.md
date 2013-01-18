@@ -6,6 +6,7 @@ are supported:
  * [Twilio](http://www.twilio.com) SMS
  * [PagerDuty](http://www.pagerduty.com)
 
+## Notifications
 ### Twilio SMS
 This notification will send an SMS for every alarm sent by Cloud Monitoring to a list of phone numbers.
 
