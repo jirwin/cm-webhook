@@ -1,4 +1,6 @@
 exports.settings = {
+  port: 80,
+
   twilio: {
     user: '', // Twilio Account key
     key: '', // Twilio auth token

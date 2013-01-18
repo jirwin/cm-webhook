@@ -2,11 +2,12 @@ var express = require('express');
 var http = require('http');
 
 var notify = require('./lib/notify').notify;
+var settings = require('./settings').settings;
 
 var app = express();
 
 app.configure(function(){
-  app.set('port', process.env.PORT || 13044);
+  app.set('port', settings.port);
   app.use(express.logger('dev'));
   app.use(express.bodyParser());
   app.use(express.methodOverride());
